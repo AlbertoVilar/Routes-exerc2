@@ -1,0 +1,29 @@
+header {
+    height: 80px;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-font-secondary);
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+ }
+.nav-menu {
+    display: flex;
+    gap: 20px;
+   
+}
+ ul li  {
+   
+    list-style-type: none;
+}
+
+.menu-active {
+    font-weight: 700
+}
+
+.site-name {
+    font-size: 20px;
+}
